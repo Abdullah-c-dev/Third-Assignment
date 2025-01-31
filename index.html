@@ -14,7 +14,9 @@
             clifford: '#da373d',
         
             navbg:'#FFF9F4',
-            buttonbg:'#FFDC26'
+            buttonbg:'#FFDC26',
+            cartsection:'#F9DF8A',
+            tranding:'#FFF9F4'
             
           }
         }
@@ -103,38 +105,222 @@
                 </div>
          </div>
         </nav>
-        <!-- <section class="container mx-auto max-sm:flex flex-col-reverse max-sm:z-20   ">
-            <div><img class="sm:relative max-sm:mt-[-125px] " src="c1-assets/cat-big.png" alt=""></div>
-
-            <div class="sm:absolute  top-14  p-5">
-                <h1 class="text-5xl  mb-4">Pamper Your Pet,<br> Because They Deserve <br> the Bes</h1>
-                <p class="text-xl">Discover a world of treats, toys, and essentials handpicked for <br> your furry friends. Shop now and make tails wag with joy!</p>
-                <button class="bg-buttonbg px-4 py-2 mt-8 rounded-lg">Find a pet</button>
-                
-            </div>
-            
-           
-            
-            
-        </section> -->
         
-          <section class="container mx-auto max-sm:flex flex-col-reverse max-sm:z-20   ">
-            <div><img class="absolute max-sm:mt-72 max-[380px]:mt-[350px]
-              " src="c1-assets/cat-big.png" alt=""></div>
-  
-            <div class="sm:relative max-sm:absolute max-sm:mt-10  top-14  p-5">
-                <h1 class="text-5xl  mb-4">Pamper Your Pet,<br> Because They Deserve <br> the Bes</h1>
-                <p class="text-xl">Discover a world of treats, toys, and essentials handpicked for <br> your furry friends. Shop now and make tails wag with joy!</p>
-                <button class="bg-buttonbg px-4 py-2 mt-8 rounded-lg">Find a pet</button>
-                
-            </div>
-        </section>
-        
-            
-           
 
+      <section class="container mx-auto max-sm:flex flex-col-reverse relative mb-16  ">
+        <div><img class="relative max-sm:mt-72
+          " src="c1-assets/cat-big.png" alt=""></div>
+
+        <div class="absolute p-4 top-0">
+            <h1 class="text-5xl   mb-4">Pamper Your Pet,<br> Because They Deserve <br> the Bes</h1>
+            <p class="text-xl">Discover a world of treats, toys, and essentials handpicked for <br> your furry friends. Shop now and make tails wag with joy!</p>
+            <button class="bg-buttonbg px-4 py-2 mt-8 rounded-lg">Find a pet</button>
+            
+        </div>
+    </section>
     </header>
-    <main></main>
+    <div class="container  mx-auto mb-10 text-4xl font-bold max-sm:ml-4"><h2>Browse By Categories</h2></div>
+    
+    
+    <main class="grid sm:grid-cols-6 max-md:grid-cols-2 max-sm:grid-cols-2 p-3 max-sm:fcolumns-2 container mx-auto gap-4 font-bold text-center mb-10">
+      <!-- dog cart  -->
+      <div class="bg-cartsection  py-28 px-20 rounded-xl items-center text-center">
+        <div class="bg-white p-4 max-sm:p-1 rounded-full  items-center justify-center ">
+          <img class="    rounded-full   " src="c1-assets/dog-cartoon.png" alt="">
+        </div>
+        <h4>Dogs</h4>
+        <p>15 items</p>
+        </div>
+      </div>
+      <!-- cat cart  -->
+      <div class="bg-cartsection   py-28 px-20 rounded-xl items-center text-center">
+        <div>
+          <img class="bg-white p-4 max-sm:p-1 rounded-full" src="c1-assets/cat-cartoon.png" alt=""></div>
+        <h4>Cats</h4>
+        <p>15 items</p>
+        </div>
+      </div>
+      <!-- fish cart  -->
+      <div class="bg-cartsection   py-28 px-20 rounded-xl items-center text-center">
+        <div>
+          <img class="bg-white p-4 max-sm:p-1 rounded-full" src="c1-assets/fish-cartoon.png" alt=""></div>
+        <h4>Fish</h4>
+        <p>17 items</p>
+        </div>
+      </div>
+      <div class="bg-cartsection   py-28 px-20 rounded-xl items-center text-center">
+        <div>
+          <img class="bg-white p-4 max-sm:p-1 rounded-full" src="c1-assets/bird-cartoon.png" alt=""></div>
+        <h4>Birds</h4>
+        <p>29 items</p>
+        </div>
+      </div>
+      
+      <div class="bg-cartsection   py-28 px-20 rounded-xl items-center text-center">
+        <div>
+          <img class="bg-white p-4 max-sm:p-1 rounded-full" src="c1-assets/cute-pet-mid.png" alt=""></div>
+        <h4>Birds</h4>
+        <p>29 items</p>
+        </div>
+      </div>
+      
+      <div class="bg-cartsection   py-28 px-20 rounded-xl items-center text-center">
+        <div>
+          <img class="bg-white p-4 max-sm:p-1 rounded-full" src="c1-assets/rabbit-cartoon.png" alt=""></div>
+        <h4>Rabit</h4>
+        <p>7 items</p>
+        </div>
+      </div>
+    </div>
+    </main>
+    <main class="bg-tranding"  >
+      <!-- <section class="container sm:w-[1320px]  sm:mx-auto">
+        <div class=" mx-auto mb-10 text-4xl font-bold max-sm:mx-auto  "><h2 >Trending Pet Products</h2></div>
+      
+      
+     <div class="grid grid-cols-2 max-sm:grid-cols-1 max-sm:mx-auto max-sm:justify-center max-sm:items-center gap-20 mx-auto ">   
+      <div class="bg-cartsection w-[400px] h-[500px] items-center rounded-lg mx-auto  relative">
+          
+      <div class="absolute m-4 top-10">
+        <div><h2 class="text-3xl">T- Shirt For Dogs</h2></div>
+      <div><p>Discover a world of treats, toys, and <br> essentials handpicked for </p></div>
+      <button class="bg-white mt-8  rounded-md px-4 py-2">Shop now</button>
+      </div>
+      <div class="right-0 bottom-0 absolute"><img src="c1-assets/cute-pet-mid.png" alt=""></div>
+  </div>
+  
+   <div class="grid grid-cols-4 max-sm:grid-cols-2 mx-auto gap-5">
+  <div class="w-44 h-24  ">
+    <div class="bg-white  ">
+      <div class="flex" >
+        <div class="m-auto">
+          <img class="" src="c1-assets/bird-cartoon.png" alt="">
+        </div>
+        <div>
+          <div class="flex">
+            <img src="c1-assets/fi_2107957.png" alt="">
+            <div><h4>4.5</h4>
+            </div>
+           
+          </div>
+          <h3>Pet Bed</h3>
+          <h5>$39.99</h5>
+        </div>
+
+      </div>
+    </div>
+   
+  
+  </div>
+  <div class="w-44 h-24  ">
+    <div class="bg-white  ">
+      <div class="flex" >
+        <div class="m-auto">
+          <img class="" src="c1-assets/bird-cartoon.png" alt="">
+        </div>
+        <div>
+          <div class="flex">
+            <img src="c1-assets/fi_2107957.png" alt="">
+            <div><h4>4.5</h4>
+            </div>
+           
+          </div>
+          <h3>Pet Bed</h3>
+          <h5>$39.99</h5>
+        </div>
+
+      </div>
+    </div>
+   
+  
+  </div>
+  <div class="w-44 h-24  ">
+    <div class="bg-white  ">
+      <div class="flex" >
+        <div class="m-auto">
+          <img class="" src="c1-assets/bird-cartoon.png" alt="">
+        </div>
+        <div>
+          <div class="flex">
+            <img src="c1-assets/fi_2107957.png" alt="">
+            <div><h4>4.5</h4>
+            </div>
+           
+          </div>
+          <h3>Pet Bed</h3>
+          <h5>$39.99</h5>
+        </div>
+
+      </div>
+    </div>
+   
+  
+  </div>  <div class="w-44 h-24  ">
+    <div class="bg-white  ">
+      <div class="flex" >
+        <div class="m-auto">
+          <img class="" src="c1-assets/bird-cartoon.png" alt="">
+        </div>
+        <div>
+          <div class="flex">
+            <img src="c1-assets/fi_2107957.png" alt="">
+            <div><h4>4.5</h4>
+            </div>
+           
+          </div>
+          <h3>Pet Bed</h3>
+          <h5>$39.99</h5>
+        </div>
+
+      </div>
+    </div>
+   
+  
+  </div>
+  <div class="w-44 h-24   ">
+    <div class="bg-white p-3 ">
+      <div class="flex" >
+        <div class="m-auto">
+          <img class="" src="c1-assets/bird-cartoon.png" alt="">
+        </div>
+        <div>
+          <div class="flex">
+            <img src="c1-assets/fi_2107957.png" alt="">
+            <div><h4>4.5</h4>
+            </div>
+           
+          </div>
+          <h3>Pet Bed</h3>
+          <h5>$39.99</h5>
+        </div>
+
+      </div>
+    </div>
+  </div>
+   
+  
+  </div>
+</div>
+      </section> -->
+      <section class="container   mx-auto">
+        <h1>Trending Pet Products</h1>
+        
+          <div class="bg-cartsection   relative box-border    sm:w-[400px] sm:h-[400px] ">
+            <div class="absolute">
+              <h2>tshirt for dogs</h2>
+              <p>Exclusive training tips, ticks, product <br> deals and more.</p>
+              <button class="bg-white">Shop Now</button>
+            </div>
+            <div class="absolute mt-[100]" ><img class="" src="c1-assets/cute-pet-small.png" alt=""></div>
+          </div>
+          
+        </div>
+        
+
+          
+
+      </section>
+    </main>
     <footer></footer>
     
 </body>

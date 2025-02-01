@@ -6,6 +6,9 @@
     <title>Browse4Pets</title>
     <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.23/dist/full.min.css" rel="stylesheet" type="text/css" />
 <script src="https://cdn.tailwindcss.com"></script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Sora:wght@100..800&display=swap" rel="stylesheet">
 <script>
     tailwind.config = {
       theme: {
@@ -30,7 +33,6 @@
   <style>
     .sora-normal {
   font-family: "Sora", serif;
-  font-optical-sizing: auto;
   font-style: normal;
 }
   </style>
@@ -118,7 +120,8 @@
 
         <div class="absolute p-4 top-0">
             <h1 class="text-5xl   mb-4">Pamper Your Pet,<br> Because They Deserve <br> the Bes</h1>
-            <p class="text-xl">Discover a world of treats, toys, and essentials handpicked for <br> your furry friends. Shop now and make <br> tails wag with joy!</p>
+            <p class="text-xl">Discover a world of treats, toys, and essentials handpicked for <br> your furry friends.
+              <span class="max-sm:hidden"> Shop now and make <br> tails wag with joy!</span>  </p>
             
             
             
@@ -129,10 +132,10 @@
             
             
             
-            <button class="bg-tranding justify-center items-center text-center font-bold flex hover:bg-extra border-solid px-4 py-2 mt-8 rounded-lg ">
-              <span class="relative flex h-6 w-6">
-                <span class="animate-ping absolute inline-flex h-full w-full rounded-full bg-extra opacity-75"></span>
-                <span class="relative inline-flex rounded-full h-4 w-4 bg-extra"></span>
+            <button class="bg-tranding justify-center items-center border text-center font-bold flex border hover:bg-extra border-solid px-4 py-2 mt-8 rounded-lg ">
+              <span class="relative flex h-8 w-8">
+                <span class="animate-ping absolute inline-flex h-full w-full rounded-full bg-extra opacity-95"></span>
+                
               </span>Find a pet</button>
             
         </div>
@@ -372,7 +375,7 @@
       
       <footer class="relative ">
       <!-- info sec  -->
-      <section class=" absolute max-sm:bottom-[480px]  sm:bottom-72 sm:right-[195px] container mx-auto bg-tranding rounded-xl ">
+      <section class=" absolute max-sm:bottom-[620px]  sm:bottom-72 sm:right-[195px] container mx-auto bg-tranding rounded-xl  ">
         <div class="sm:flex max-sm:grid max-sm:grid-cols-1 max-sm:mx-auto justify-center items-center max-sm:text-center max-sm:place-content-center ">
           <div class="max-sm:mx-auto">
             <img class="max-sm:hidden" src="c1-assets/cute-pet-mid.png" alt="">
@@ -398,52 +401,26 @@
 
       <section class="container mx-auto pt-72 max-sm:mt-28 max-sm:p-4 grid gap-10  ">
         
-        <!-- <div class="sm:flex sm:justify-evenly max-sm:grid gap-4">
-          <div>
-            <div class="flex items-center">
-              <div><img src="c1-assets/logo-footer.png" alt=""></div>
-              <div>Brose Pets</div>
-              <div></div>
-            </div>
-            <div>Discover a world of treats, toys, and <br> essentials handpicked for your furry <br> friends</div>
-          </div>
-            <div>
-              
-                <div><a href="">Find a pet</a></div>
-                <div><a href="">Breeds</a></div>
-                <div><a href="">Contact us</a></div>
-              
-          
-            </div>
-            <div>
-              <div>follow us</div>
-              <div class="flex gap-4 grayscale">
-                <img src="c1-assets/google+.png" alt="">
-                <img src="c1-assets/twitter.png" alt="">
-                <img src="c1-assets/dribble.png" alt="">
-                <img src="c1-assets/fb.png" alt=""></div>
-            </div>
-          
-        </div> -->
+       
         <footer class="footer  text-base-content p-10">
           <nav>
             <div>
-              <div class="flex items-center gap-3">
+              <div class="flex items-center  gap-3">
                 <div><img src="c1-assets/logo-footer.png" alt=""></div>
                 <div class="text-3xl">Brose Pets</div>
                 <div></div>
               </div>
-              <div>Discover a world of treats, toys, and <br> essentials handpicked for your furry <br> friends</div>
+              <div class="text-2xl">Discover a world of treats, toys, and <br> essentials handpicked for your furry <br> friends</div>
             </div>
           </nav>
-          <nav>
+          <nav class="text-xl">
             <h6 class="footer-title">mewww</h6>
             <a class="link link-hover">Find A Pets</a>
             <a class="link link-hover">Breeds</a>
             <a class="link link-hover">contact</a>
           </nav>
           <nav>
-            <h6 class="footer-title">Social</h6>
+            <h6 class="footer-title text-xl">Social</h6>
             <div class="grid grid-flow-col gap-4">
               <a>
                 <svg

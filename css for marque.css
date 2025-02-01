@@ -1,0 +1,5 @@
+.blink {
+    animation: blinker 4.5s linear infinite;
+    color: orange;
+    font-size: 2.5rem;
+    font-weight: bold;}
